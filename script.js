@@ -1,4 +1,4 @@
-// // Setup
+// task 33
 // // Setup
 // const lastName = 'Lovelace'
 
@@ -7,16 +7,23 @@
 
 // console.log(secondToLastLetterOfLastName)
 
-// // task 34
+// task 34
 
-const myNoun = 'dog'
-const myAdjective = 'big'
-const myVerb = 'ran'
-const myAdverb = 'quickly'
+// const myNoun = 'dog'
+// const myAdjective = 'big'
+// const myVerb = 'ran'
+// const myAdverb = 'quickly'
+
+// // Only change code below this line
+// const wordBlanks =
+//   myNoun + ' ' + myNoun + ' ' + myVerb + ' ' + myAdjective + ' ' + myAdverb // Change this line
+// // Only change code above this line
+
+// console.log(wordBlanks)
+
+// task 35
 
 // Only change code below this line
-const wordBlanks =
-  myNoun + ' ' + myNoun + ' ' + myVerb + ' ' + myAdjective + ' ' + myAdverb // Change this line
-// Only change code above this line
+const myArray = ['peanut butter', 25]
 
-console.log(wordBlanks)
+// console.log(myArray)
