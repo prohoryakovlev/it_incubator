@@ -73,10 +73,20 @@
 // console.log(removedFromMyArray)
 
 // task 47
-const myArray = [
-  ['John', 23],
-  ['dog', 3],
+// const myArray = [
+//   ['John', 23],
+//   ['dog', 3],
+// ]
+// myArray.shift()
+// myArray.unshift(['Paul', 35])
+// console.log(myArray)
+
+// task 48
+const myList = [
+  ['Prohor', 25],
+  ['Yakovelv', 1997],
+  ['Cheboksary', 2022],
+  ['Frontend', 2021],
+  ['Frehds', 2000],
 ]
-myArray.shift()
-myArray.unshift(['Paul', 35])
-console.log(myArray)
+console.log(myList)
