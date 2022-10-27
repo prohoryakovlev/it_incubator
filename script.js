@@ -26,7 +26,12 @@
 // ]
 // console.log(myArray)
 
-// task 36
-const myArray = [50, 60, 70]
-const myData = myArray[0]
-console.log(myData)
+// task 37
+// const myArray = [50, 60, 70]
+// const myData = myArray[0]
+// console.log(myData)
+
+// task 38
+const myArray = [18, 64, 99]
+myArray[0] = 45
+console.log(myArray)
