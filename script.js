@@ -47,9 +47,18 @@
 // console.log(myData)
 
 // task 44
+// const myArray = [
+//   ['John', 23],
+//   ['cat', 2],
+// ]
+// myArray.push(['dog', 3])
+// console.log(myArray)
+
+// task 45
 const myArray = [
   ['John', 23],
   ['cat', 2],
 ]
-myArray.push(['dog', 3])
+const removedFromMyArray = myArray.pop()
 console.log(myArray)
+console.log(removedFromMyArray)
