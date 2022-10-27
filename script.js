@@ -55,10 +55,19 @@
 // console.log(myArray)
 
 // task 45
+// const myArray = [
+//   ['John', 23],
+//   ['cat', 2],
+// ]
+// const removedFromMyArray = myArray.pop()
+// console.log(myArray)
+// console.log(removedFromMyArray)
+
+// task 46
 const myArray = [
   ['John', 23],
-  ['cat', 2],
+  ['dog', 3],
 ]
-const removedFromMyArray = myArray.pop()
+const removedFromMyArray = myArray.shift('shifted off')
 console.log(myArray)
 console.log(removedFromMyArray)
