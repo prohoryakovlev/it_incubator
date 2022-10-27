@@ -24,6 +24,16 @@
 // task 35
 
 // Only change code below this line
-const myArray = ['peanut butter', 25]
+// const myArray = ['peanut butter', 25]
 
 // console.log(myArray)
+
+// task 36
+
+// Only change code below this line
+const myArray = [
+  ['Prohor', 25],
+  ['Frontend', 'junor'],
+]
+
+console.log(myArray)
