@@ -82,11 +82,20 @@
 // console.log(myArray)
 
 // task 48
-const myList = [
-  ['Prohor', 25],
-  ['Yakovelv', 1997],
-  ['Cheboksary', 2022],
-  ['Frontend', 2021],
-  ['Frehds', 2000],
-]
-console.log(myList)
+// const myList = [
+//   ['Prohor', 25],
+//   ['Yakovelv', 1997],
+//   ['Cheboksary', 2022],
+//   ['Frontend', 2021],
+//   ['Frehds', 2000],
+// ]
+// console.log(myList)
+
+// CODEWARS  (Reverse List Order)
+// Examples (Input -> Output)
+// * [1, 2, 3, 4]  -> [4, 3, 2, 1]
+// * [9, 2, 0, 7]  -> [7, 0, 2, 9]
+
+function reverseList(list) {
+  return list.reverse()
+}
