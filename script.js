@@ -101,8 +101,12 @@
 // }
 
 // CODEWARS  (Convert a String to a Number!)
-"1234" --> 1234
-"605"  --> 605
-"1405" --> 1405
-"-7" --> -7
-const stringToNumber = str => +str;
+// "1234" --> 1234
+// "605"  --> 605
+// "1405" --> 1405
+// "-7" --> -7
+// const stringToNumber = str => +str;
+
+// CODEWARS  (Sentence Smash)
+// ['hello', 'world', 'this', 'is', 'great']  => 'hello world this is great'
+const smash = (w) => w.join(' ')
