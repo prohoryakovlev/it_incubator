@@ -93,9 +93,16 @@
 
 // CODEWARS  (Reverse List Order)
 // Examples (Input -> Output)
-// * [1, 2, 3, 4]  -> [4, 3, 2, 1]
-// * [9, 2, 0, 7]  -> [7, 0, 2, 9]
+// // * [1, 2, 3, 4]  -> [4, 3, 2, 1]
+// // * [9, 2, 0, 7]  -> [7, 0, 2, 9]
 
-function reverseList(list) {
-  return list.reverse()
-}
+// function reverseList(list) {
+//   return list.reverse()
+// }
+
+// CODEWARS  (Convert a String to a Number!)
+"1234" --> 1234
+"605"  --> 605
+"1405" --> 1405
+"-7" --> -7
+const stringToNumber = str => +str;
