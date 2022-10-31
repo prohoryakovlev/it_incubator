@@ -109,4 +109,14 @@
 
 // CODEWARS  (Sentence Smash)
 // ['hello', 'world', 'this', 'is', 'great']  => 'hello world this is great'
-const smash = (w) => w.join(' ')
+// const smash = (w) => w.join(' ')
+
+// CODEWARS  (Reversed sequence)
+const reverseSeq = (n) => {
+  const arr = []
+  for (let i = n; i > 0; i--) {
+    arr.push(i)
+  }
+
+  return arr
+}
