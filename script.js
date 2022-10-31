@@ -138,6 +138,11 @@
 // }
 
 // CODEWARS  (Convert number to reversed array of digits)
-function digitize(n) {
-  return n.toString().split('').reverse().map(Number)
+// function digitize(n) {
+//   return n.toString().split('').reverse().map(Number)
+// }
+
+// CODEWARS  (Keep Hydrated!)
+function litres(time) {
+  return Math.floor(time * 0.5)
 }
