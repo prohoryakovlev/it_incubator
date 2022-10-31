@@ -127,6 +127,12 @@
 // }
 
 // CODEWARS  (Difference of Volumes of Cuboids)
-function findDifference(a, b) {
-  return Math.abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2])
+// function findDifference(a, b) {
+//   return Math.abs(a[0] * a[1] * a[2] - b[0] * b[1] * b[2])
+// }
+
+// CODEWARS  (Sleigh Authentication)
+function Sleigh() {}
+Sleigh.prototype.authenticate = function (name, password) {
+  return name === 'Santa Claus' && password === 'Ho Ho Ho!'
 }
