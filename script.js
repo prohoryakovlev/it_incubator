@@ -112,11 +112,16 @@
 // const smash = (w) => w.join(' ')
 
 // CODEWARS  (Reversed sequence)
-const reverseSeq = (n) => {
-  const arr = []
-  for (let i = n; i > 0; i--) {
-    arr.push(i)
-  }
+// const reverseSeq = (n) => {
+//   const arr = []
+//   for (let i = n; i > 0; i--) {
+//     arr.push(i)
+//   }
 
-  return arr
+//   return arr
+// }
+
+// CODEWARS  (Convert to Binary)
+function toBinary(n) {
+  return Number(n.toString(2))
 }
