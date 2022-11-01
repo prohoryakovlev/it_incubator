@@ -213,6 +213,9 @@
 // }
 
 // CODEWARS  ( For Twins: 1. Types)
-function typeValidation(v, t) {
-  return typeof v === t
-}
+// function typeValidation(v, t) {
+//   return typeof v === t
+// }
+
+// CODEWARS  ( Beginner Series #1 School Paperwork)
+const paperwork = (n, m) => (n < 0 || m < 0 ? 0 : n * m)
