@@ -226,6 +226,11 @@
 // }
 
 // CODEWARS  ( Sum The Strings)
-function sumStr(a, b) {
-  return (Number(a) + Number(b)).toString()
+// function sumStr(a, b) {
+//   return (Number(a) + Number(b)).toString()
+// }
+
+// CODEWARS  ( Enumerable Magic #25 - Take the First N Elements )
+function take(arr, n) {
+  return arr.slice(0, n)
 }
