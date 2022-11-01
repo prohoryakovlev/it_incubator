@@ -221,6 +221,11 @@
 // const paperwork = (n, m) => (n < 0 || m < 0 ? 0 : n * m)
 
 // CODEWARS  ( isReallyNaN)
-const isReallyNaN = (val) => {
-  return Number.isNaN(val)
+// const isReallyNaN = (val) => {
+//   return Number.isNaN(val)
+// }
+
+// CODEWARS  ( Sum The Strings)
+function sumStr(a, b) {
+  return (Number(a) + Number(b)).toString()
 }
