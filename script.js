@@ -298,7 +298,16 @@
 // }
 
 // CODEWARS  (Find out whether the shape is a cube)
-var cubeChecker = function (volume, side) {
-  if (volume <= 0 || side <= 0) return false
-  return Math.cbrt(volume) === side
+// var cubeChecker = function (volume, side) {
+//   if (volume <= 0 || side <= 0) return false
+//   return Math.cbrt(volume) === side
+// }
+
+// CODEWARS  (Grasshopper - Personalized Message)
+function greet(name, owner) {
+  if (name === owner) {
+    return 'Hello boss'
+  } else {
+    return 'Hello guest'
+  }
 }
