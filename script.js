@@ -265,10 +265,22 @@
 // }
 
 // CODEWARS  (Find Multiples of a Number)
-function findMultiples(integer, limit) {
-  const arr = []
-  for (let i = integer; i <= limit; i += integer) {
-    arr.push(i)
+// function findMultiples(integer, limit) {
+//   const arr = []
+//   for (let i = integer; i <= limit; i += integer) {
+//     arr.push(i)
+//   }
+//   return arr
+// }
+
+// CODEWARS  (Sum of the first nth term of Series)
+function SeriesSum(n) {
+  if (!n) return '0.00'
+  let sum = 1,
+    j = 4
+  for (let i = 1; i < n; i++) {
+    sum += 1 / j
+    j += 3
   }
-  return arr
+  return sum.toFixed(2)
 }
