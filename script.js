@@ -304,10 +304,20 @@
 // }
 
 // CODEWARS  (Grasshopper - Personalized Message)
-function greet(name, owner) {
-  if (name === owner) {
-    return 'Hello boss'
-  } else {
-    return 'Hello guest'
+// function greet(name, owner) {
+//   if (name === owner) {
+//     return 'Hello boss'
+//   } else {
+//     return 'Hello guest'
+//   }
+// }
+
+// CODEWARS  (Multiplication table for number)
+function multiTable(n) {
+  let res = ''
+  for (let i = 1; i <= 10; i++) {
+    res += `${i} * ${n} = ${i * n}`
+    if (i < 10) res += '\n'
   }
+  return res
 }
