@@ -274,13 +274,25 @@
 // }
 
 // CODEWARS  (Sum of the first nth term of Series)
-function SeriesSum(n) {
-  if (!n) return '0.00'
-  let sum = 1,
-    j = 4
-  for (let i = 1; i < n; i++) {
-    sum += 1 / j
-    j += 3
+// function SeriesSum(n) {
+//   if (!n) return '0.00'
+//   let sum = 1,
+//     j = 4
+//   for (let i = 1; i < n; i++) {
+//     sum += 1 / j
+//     j += 3
+//   }
+//   return sum.toFixed(2)
+// }
+
+// CODEWARS  (Mumbling)
+function accum(s) {
+  let res = ''
+  for (let i = 0; i < s.length; i++) {
+    res +=
+      s[i].toUpperCase() +
+      s[i].toLowerCase().repeat(i) +
+      (i < s.length - 1 ? '-' : '')
   }
-  return sum.toFixed(2)
+  return res
 }
