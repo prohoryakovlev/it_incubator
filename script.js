@@ -236,4 +236,10 @@
 // }
 
 // CODEWARS  ( Reversing Words in a String )
-const reverse = (string) => string.split(' ').reverse().join(' ')
+// const reverse = (string) => string.split(' ').reverse().join(' ')
+
+// CODEWARS  ( The Office IV Find a Meeting Room )
+function meeting(x) {
+  const f = x.indexOf('O')
+  return f > -1 ? f : 'None available!'
+}
