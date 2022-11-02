@@ -239,12 +239,19 @@
 // const reverse = (string) => string.split(' ').reverse().join(' ')
 
 // CODEWARS  ( The Office IV Find a Meeting Room )
-function meeting(x) {
-  const f = x.indexOf('O')
-  return f > -1 ? f : 'None available!'
-}
+// function meeting(x) {
+//   const f = x.indexOf('O')
+//   return f > -1 ? f : 'None available!'
+// }
 
-// CODEWARS  ( Is he gonna survive? )
-function hero(bullets, dragons) {
-  return dragons * 2 <= bullets
+// // CODEWARS  ( Is he gonna survive? )
+// function hero(bullets, dragons) {
+//   return dragons * 2 <= bullets
+// }
+
+// CODEWARS  ( N-th Power)
+function index(arr, n) {
+  const el = arr[n]
+  if (!el) return -1
+  return el ** n
 }
