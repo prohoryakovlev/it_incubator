@@ -250,8 +250,16 @@
 // }
 
 // CODEWARS  ( N-th Power)
-function index(arr, n) {
-  const el = arr[n]
-  if (!el) return -1
-  return el ** n
+// function index(arr, n) {
+//   const el = arr[n]
+//   if (!el) return -1
+//   return el ** n
+// }
+
+// CODEWARS  (Sum Arrays)
+function sum(numbers) {
+  let sum = 0
+  for (let i = 0; i < numbers.length; i++) sum += numbers[i]
+
+  return sum
 }
