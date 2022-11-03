@@ -323,7 +323,17 @@
 // }
 
 // CODEWARS  (Find the position!)
-function position(l) {
-  const i = ' abcdefghijklmnopqrstuvwxyz'.indexOf(l)
-  return `Position of alphabet: ${i}`
+// function position(l) {
+//   const i = ' abcdefghijklmnopqrstuvwxyz'.indexOf(l)
+//   return `Position of alphabet: ${i}`
+// }
+
+// CODEWARS  (Sum of differences in array)
+function sumOfDifferences(arr) {
+  const sorted = arr.sort((a, b) => b - a)
+  let sum = 0
+  for (let i = 1; i < sorted.length; i++) {
+    sum += sorted[i - 1] - sorted[i]
+  }
+  return sum
 }
