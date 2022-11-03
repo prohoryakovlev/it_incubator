@@ -313,11 +313,17 @@
 // }
 
 // CODEWARS  (Multiplication table for number)
-function multiTable(n) {
-  let res = ''
-  for (let i = 1; i <= 10; i++) {
-    res += `${i} * ${n} = ${i * n}`
-    if (i < 10) res += '\n'
-  }
-  return res
+// function multiTable(n) {
+//   let res = ''
+//   for (let i = 1; i <= 10; i++) {
+//     res += `${i} * ${n} = ${i * n}`
+//     if (i < 10) res += '\n'
+//   }
+//   return res
+// }
+
+// CODEWARS  (Find the position!)
+function position(l) {
+  const i = ' abcdefghijklmnopqrstuvwxyz'.indexOf(l)
+  return `Position of alphabet: ${i}`
 }
