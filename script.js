@@ -339,7 +339,17 @@
 // }
 
 // CODEWARS  (Will there be enough space?)
-function enough(cap, on, wait) {
-  const p = on + wait - cap
-  return p < 0 ? 0 : p
+// function enough(cap, on, wait) {
+//   const p = on + wait - cap
+//   return p < 0 ? 0 : p
+// }
+
+// CODEWARS  (Who likes it?)
+function likes(n) {
+  const l = n.length
+  if (!l) return 'no one likes this'
+  if (l === 1) return `${n[0]} likes this`
+  if (l === 2) return `${n[0]} and ${n[1]} like this`
+  if (l === 3) return `${n[0]}, ${n[1]} and ${n[2]} like this`
+  if (l > 3) return `${n[0]}, ${n[1]} and ${l - 2} others like this`
 }
